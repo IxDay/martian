@@ -69,7 +69,7 @@ export function richText(
               type: 'url',
               url: options.url,
             }
-          : undefined,
+          : console.log(options.url),
       },
     } as RichText;
 }
